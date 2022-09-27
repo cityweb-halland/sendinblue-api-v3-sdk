@@ -308,11 +308,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -566,11 +566,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -869,11 +869,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -1172,11 +1172,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -1467,11 +1467,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -1802,11 +1802,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -2097,11 +2097,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -2363,11 +2363,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -2635,11 +2635,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -2907,11 +2907,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -3179,11 +3179,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -3451,11 +3451,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
@@ -3696,11 +3696,11 @@ class EmailCampaignsApi
             $httpBody = $_tempBody;
             
             if($headers['Content-Type'] === 'application/json') {
-                // \stdClass has no __toString(), so we should encode it manually
+                // \stdClass has no __toString(): string, so we should encode it manually
                 if ($httpBody instanceof \stdClass) {
                     $httpBody = \GuzzleHttp\json_encode($httpBody);
                 }
-                // array has no __toString(), so we should encode it manually
+                // array has no __toString(): string, so we should encode it manually
                 if(is_array($httpBody)) {
                     $httpBody = \GuzzleHttp\json_encode(ObjectSerializer::sanitizeForSerialization($httpBody));
                 }
